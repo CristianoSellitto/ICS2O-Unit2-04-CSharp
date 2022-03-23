@@ -10,9 +10,9 @@ class Program
     {
         int length;
         int width;
-        Console.WriteLine("Enter length of rectangle:");
+        Console.WriteLine("Enter the length of your rectangle:");
         length = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Enter width of rectangle:");
+        Console.WriteLine("Enter the width of your rectangle:");
         width = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Your rectangle's perimeter is " + ((length * 2) + (width * 2)) + "cm");
         Console.WriteLine("Your rectangle's area is " + (length * width) + "cm²");
