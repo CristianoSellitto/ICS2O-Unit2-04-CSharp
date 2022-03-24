@@ -8,14 +8,14 @@ class Program
 {
     public static void Main(string[] args)
     {
-        int length;
-        int width;
-        Console.WriteLine("Enter the length of your rectangle:");
-        length = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Enter the width of your rectangle:");
-        width = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Your rectangle's perimeter is " + ((length * 2) + (width * 2)) + "cm");
-        Console.WriteLine("Your rectangle's area is " + (length * width) + "cm²");
+        int basetriangle;
+        int heighttriangle;
+        Console.WriteLine("The area formula for a triangle is: A = b × h ÷ 2");
+        Console.WriteLine("Enter the base of your triangle:");
+        basetriangle = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Enter the width of your triangle:");
+        heighttriangle = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Your triangle's area is " + (basetriangle * heighttriangle / 2) + "cm²");
         Console.WriteLine("\nFinished.");
     }
 }
